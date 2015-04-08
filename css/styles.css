@@ -1,9 +1,22 @@
-.button1, .button2{
+body{
+	font-size: 1em;
+	font-family: helvetica;
+	margin: 15px 0 0 15px;
+	width: 1280px;
+}
+.leftbutton, .rightbutton{
 	border-radius: 30px;
 	width: 200px;
 	height: 50px;
 	background-color: #eee;
 	border: solid 1px #ddd;
 	float: left;
-	margin: 15px 0 0 10px;
+	margin-top: 15px;
+	text-align: center;
+}
+.lefttext, .righttext{
+	margin-top: 15px;
+}
+.rightbutton{
+	margin-left: 15px;
 }
