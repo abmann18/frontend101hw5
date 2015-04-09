@@ -4,6 +4,9 @@ body{
 	margin: 15px 0 0 15px;
 	width: 1280px;
 }
+.allbuttons{
+	margin-top: 15px;
+}
 .leftbutton, .rightbutton{
 	border-radius: 30px;
 	width: 200px;
@@ -11,12 +14,26 @@ body{
 	background-color: #eee;
 	border: solid 1px #ddd;
 	float: left;
-	margin-top: 15px;
 	text-align: center;
+}
+.leftbutton:hover, .rightbutton:hover{
+	background-color: #FFD700;
 }
 .lefttext, .righttext{
 	margin-top: 15px;
 }
 .rightbutton{
 	margin-left: 15px;
+}
+.banner{
+	clear: both;
+	width: 500px;
+	height: 100px;
+	border: solid 1px #ddd;
+	background-color: #eee;
+	margin-top: 100px;
+}
+.bannertext{
+	text-align: center;
+	margin-top: 40px;
 }
